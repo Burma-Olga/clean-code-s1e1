@@ -22,7 +22,7 @@ body {
     text-align: center;
   }
 }
-.container {
+.todo-list {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.add__task-wrapper {
+.todo-list__wrapper {
   display: flex;
 }
 ul {
@@ -61,7 +61,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="add__task"] {
+label[for="todo-list__task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -87,11 +87,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="add__task"] {
+label[for="todo-list__task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#add__task {
+input#todo-list__task {
   width: 318px;
 }
 
